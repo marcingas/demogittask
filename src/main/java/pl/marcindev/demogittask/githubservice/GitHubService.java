@@ -8,6 +8,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @RequiredArgsConstructor
 public class GitHubService {
     private final WebClient webClient;
-    
+
 
 }
