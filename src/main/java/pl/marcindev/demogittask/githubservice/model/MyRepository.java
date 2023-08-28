@@ -1,4 +1,4 @@
 package pl.marcindev.demogittask.githubservice.model;
 
-public record MyRepository(String fullName,boolean fork,Owner owner, Branch branch) {
+public record MyRepository(String name,boolean fork,Owner owner) {
 }
